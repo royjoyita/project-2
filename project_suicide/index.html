@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Silent Epidemic of Human Mind</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+
+<body>
+    <h1>Silent Epidemic of Human Mind</h1>
+    <div class="wrapper">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">This analysis is built to find signals correlated to increased suicide rates among different cohorts globally, across the socio-economic spectrum
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div class="hero text-center">
+          <h1>Suicide Rates Overview 2010 - 2016</h1>
+          <p>Compares socio-economic info with suicide rates by year and country</p>
+        </div>
+    <div id="plot"></div>
+    <select id="selDataset">
+        <option value="SuicideData2010">SuicideData2010</option>
+        <option value="SuicideData2015">SuicideData2015</option>
+        <option value="SuicideData2010-2016">SuicideData2010-2016</option>
+        <option value="Suicide VS GDP">Suicide VS GDP</option>
+      </select>
+        <footer class="footer">
+          <span class="bottom">Suicide Prevention</span>
+        </footer>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="static/js/plots.js"></script>
+
+    
+</body>
+    
+</html>
